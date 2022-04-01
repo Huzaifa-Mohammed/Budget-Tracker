@@ -6,6 +6,7 @@
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "start": "node server.js",
+        "start:dev": "webpack-dev-server",
         "lite-server": "lite-server"
     },
     "repository": {
@@ -23,6 +24,7 @@
         "express": "^4.17.1",
         "mongoose": "^5.5.15",
         "morgan": "^1.9.1",
-        "webpack-bundle-analyzer": "^4.5.0"
+        "webpack-bundle-analyzer": "^4.5.0",
+        "webpack-dev-server": "^4.7.4"
     }
 }
